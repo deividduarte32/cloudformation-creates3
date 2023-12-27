@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  MeuBucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: dduarte2025
+      AccessControl: Private  # Defina a política de acesso do bucket
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256  # Criptografia do lado do servidor
+      Tags:
+        - Key: Name
+          Value: MeuBucketS3
+      # Adicione outras propriedades conforme necessário
