@@ -1,3 +1,3 @@
 # Testando imagem
 
-![Texto Alternativo](imagens/projeto-eks.drawio.svg)
+<!-- ![Texto Alternativo](imagens/projeto-eks.drawio.svg) -->
